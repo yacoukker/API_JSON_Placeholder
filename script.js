@@ -21,6 +21,8 @@ function getUsers(){
                 usersElm.appendChild(li);
             } 
             let userS = document.querySelectorAll('.user');
+            document.querySelector('.users li:first-child').classList.add('active');
+            getPostes(1);
             userS.forEach(function (usR) {
                 usR.addEventListener('click', function () {
                     userS.forEach((e)=>{

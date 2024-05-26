@@ -42,6 +42,7 @@ a{
 .user span:last-child{
     font-size: 11px;
 }
+
 .active{
     border: 2px solid orange;
     transform: scale(1.05);
